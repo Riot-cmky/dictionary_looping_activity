@@ -138,6 +138,38 @@ print(new_student)
 
 
 
+# Question Four
+
+cpsid = int(input("Enter CPSID: "))
+combo_name = input("Enter Combo,Name (Last, First): ")
+first_name = input("Enter First Name: ")
+last_name = input("Enter Last Name: ")
+middle_name = input("Enter Middle Name: ")
+homeroom = input("Enter Homeroom (e.g., B220): ")
+grade_level = int(input("Enter Grade Level: "))
+email = input("Enter Email: ")
+contact_number = input("Enter contact number: ")
+
+
+new_student = {
+    'CPSID': cpsid,
+    'Combo,Name': combo_name,
+    'FName': first_name,
+    'LName': last_name,
+    'MName': middle_name,
+    'HR': homeroom,
+    'GL': grade_level,
+    'Email': email,
+    'ContactNumber': contact_number
+}
+
+
+students.append(new_student)
+
+print("New student added:")
+print(new_student)
+
+
 
 
 
